@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài 2 </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, Tahoma;
+            font-size: 12px;
+            background-color: #f8f9fa;
+        }
+
+        #head {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+        #head-link {
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-bottom: 5px;
+            list-style: none; 
+            padding-left: 0; 
+            display: flex;
+            justify-content: center; 
+        }
+
+        #head-link a {
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            margin-right: 10px;
+            transition: background-color 0.3s ease-in-out;
+            border: 1px solid #CDCDCD;
+            border-radius: 5px; 
+            background-color: #fff; 
+        }
+
+        #head-link a:hover {
+            background-color: #ddd;
+        }
+
+        #left,
+        #content,
+        #right {
+            margin-bottom: 15px;
+            background-color: #fff;
+            border: 1px solid #CDCDCD;
+            padding: 10px;
+        }
+
+        #footer {
+            height: 50px;
+            border: 1px solid #CDCDCD;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="head">
+                <h1 class="display-4 bg-danger text-white">Welcome to Coder's Den</h1>
+                <p>Hướng dẫn lập trình từ cơ bản đến nâng cao</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <ul class="col-md-12" id="head-link">
+                <li class="text-success"><a href="#">BÀI 1</a></li>
+                <li class="text-success"><a href="#">BÀI 2</a></li>
+                <li class="text-success"><a href="#">BÀI 3</a></li>
+                <li class="text-success"><a href="#">Bài 4</a></li>
+                <li class="text-success"><a href="#">BÀI 5</a></li>
+                <li class="text-success"><a href="#">BÀI 6</a></li>
+                <li class="text-success"><a href="#">BÀI 7</a></li>
+                <li class="text-success"><a href="#">BÀI 8</a></li>
+                <li class="text-success"><a href="#">BÀI 9</a></li>
+                <li class="text-success"><a href="#">Bài 10</a></li>
+                <li class="text-success"><a href="#"><abbr title="bcck">BÀI 11</abbr></a></li>
+                <li class="text-success"><a href="#"><abbr title="bcck">BÀI 12</abbr></a></li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3" id="left">
+                <h5 class="display-4 text-danger">Trang chủ </h5>
+                <dt>lớp học</dt>
+                <dd>-lớp SNLT</dd>
+                <dt>môn học</dt>
+                <dd>-code</dd>
+                <dt>học phần</dt>
+                <dd>-học phần 1</dd>
+                <blockquote class="blockquote">
+                    <p>Trang web này là trang web chứa nội dung chủ yếu về lập trình, thiết kế cơ sở dữ liệu cơ bản cho dân lập trình mới học.</p>
+                    <footer class="blockquote-footer">được lấy từ : https://nguyenanhtrong.tech</footer>
+                  </blockquote>
+            </div>
+
+            <div class="col-md-6" id="content">
+                <section>
+                    <center>
+                        <h1 class="text-danger">BÀI 7 - XÂY DỰNG LAYOUT TRONG THIẾT KẾ WEBSITE</h1>
+                    </center>
+                    <h2><small>1. Định nghĩa về layout trong thiết kế web</small></h2>
+                    <p>Layout có thể tạm hiểu là cách mà chúng ta bố trí các thành phần chính trên một trang web.Một trang web thường gồm các thành phần chính như:</p>
+                        <li>Header: Giới thiệu logo, một vài câu khẩu hiệu của trang web</li>
+                        <li>Footer: Thông tin bản quyền của trang web</li>
+                        <li>Menu: Thanh chức năng</li>
+                        <li>Nội dung</li>
+
+            </div>
+
+            <div class="col-md-3" id="right">
+                <center><h3 class= "text-danger"><small>Nội dung bài học</small></h3></center>
+                <blockquote class="blockquote">
+                    <p>Trang web W3SCHOOLS là trang web chứa nội dung chủ yếu về lập trình, thiết kế cơ sở dữ liệu cơ bản cho dân lập trình mới học.</p>
+                    <footer class="blockquote-footer">Từ website www.w3schools.com</footer>
+                  </blockquote>
+                <h6 class="bg-secondary text-white"> Định nghĩa về layout trong thiết kế web</h6>
+                <h6 class="bg-secondary text-white">Tìm hiểu về thuộc tính <mark>float</mark></h6>
+                <h6 class="bg-secondary text-white">Tìm hiểu về thuộc tính <mark>clear</mark></h6>
+                <h6 class="bg-secondary text-white">Các bước xây dựng layout với div</h6>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" id="footer">
+                <p>Bản quyền © 2023. Coder's Den. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
